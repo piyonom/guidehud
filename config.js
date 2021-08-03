@@ -1,6 +1,6 @@
 var config = {
-  'title': 'FiveM RP',
-  'welcomeMessage': 'WELCOME TO FIVEM RP',
+  'title': '',
+  'welcomeMessage': 'URBAN ROLEPLAY INDONESIA',
   // Add images for the loading screen background.
   images: [
   'https://img.skordy.com/j/RGvCc.jpeg', 'https://img.skordy.com/j/nsQy5.jpeg', 'https://img.skordy.com/j/KNlLn.jpeg',
@@ -16,7 +16,7 @@ var config = {
   // Change Discord settings and link.
   'discord': {
     'show': true,
-    'discordLink': 'https://website.com/discord',
+    'discordLink': 'https://discord.gg/ag25YXRjFU',
   },
   // Change which key you have set in guidehud/client/client.lua
   'menuHotkey': 'F2',
@@ -33,102 +33,132 @@ var config = {
 
 // Home page annountments.
 var announcements = [
-  'Read the rules, and have fun!',
+  '[Discord Link] : urbanroleplay.id/discord',
+  '[Instagram]: @urbanroleplay',
 ]
 
 
 // Add/Modify rules below.
 var guidelines = [
-  'Breaking any of these rules may result in administrative action.',
-  'Not knowing the rules does not make players exempt from them.',
-  'If another player breaks rules it does not give you the right to break a rule yourself.',
-  'Trying to skirt an obvious rule may result in a ban.',
-  'Staff reserves the right to ban players they feel are being toxic, disruptive or not playing by the spirit of the game mode.',
-  'Not all rules can be listed so use common sense when playing.',
-  'Minor rules may be superseded by excellent role-play as determined by Staff.',
+  'Pastikan mobil benar benar hilang sebelum impound. Karna bagasi antar mobil ter-link',
+  'Barang inventory kamu akan hilang jika kamu respawn ke rumah sakit.',
+  'Dilarang mengambil barang legal > 30%.',
+  'Jika barang mobil kerja hilang karna kesalahan server dapat refund lewat DM Admin yang online.',
+  'Jangan mencoba cheating karna akan terdeteksi dan di-ban Permanen',
+  'Melaporkan bug yang dapat menghasilkan uang atau Duplikat item akan mendapatkan reward minimal tiga juta uang ingame',
+  // 'aaaaaaaaaaa.',
+
 ]
 
 var generalconduct = [
-  'Racism, bigotry, anti-antisemitism, and any other form of harassment is not tolerated.',
-  'Players can not role-play sexual assault, rape, or anything that can be deemed as intense and inappropriate behavior.',
+  'Dilarang berbahasa kasar baik IC atau OOC.',
+  'Dilarang melakukan RP Berbau seksual tanpa persetujuan lawan RP.',
+  'Dilarang mixing saat RP, Ciptakan situasi kreatif IC untuk izin OOC.',
+  'Dilarang me-reset waktu bleeding dengan cara relog..',
+  'Dilarang mencuri barang legal > 30%.',
+  'Dilarang Magang untuk Mechanic, Ambulance, Polisi, dan Taxi jika on duty dibawah tiga.',
+  'Dilarang melakukan cheat karna akan terdeteksi dan di-banned permanen.',
+  'Dilarang Bug Abuse karna akan mengakibatkan harta direset menjadi 0.',
 ]
 
 var roleplaying = [
-  'Players must role-play every situation.',
-  '- Example: "I ran the stoplight because of server lag" or similar situations is not allowed.',
-  '- Exception:  Players may only go Out Of Character when a staff member asks you to explain a situation and/or authorizes you to go OOC.',
-  'Players must value their lives.',
-  '- Example:  If a player has a gun to their head they must act accordingly.',
-  'Players can not rule quote.',
-  'Players must role-play medical injuries correctly at all times.',
-  'Players can not do something intentionally in front of police that wouldn\'t ordinarily be done. This is known as "Cop Baiting".',
-  'Players can not steal unattended police/medic vehicles parked at police stations or hospitals.',
-  'Players can not enter an apartment to avoid consequences or role-play.',
-  'Players can not intentionally respawn, log out, or find another way to avoid or skirt potential role-play.',
+  'RolePlay (bermain peran) adalah sebuah permainan didalam dunia mod multiplayer, yang dimana kalian memerankan sebuah karakter kalian sebagai seorang warga se-realistis mungkin selayaknya di dunia nyata (seperti menghargai nyawa dan harta).',
+  'IC adalah segala sesuatu yang berhubungan dengan karaktermu, character didalam game(kota), semisalnya nama karakter kamu cecep, jadi IC adalah segala sesuatu yang berhubungan dengan si cecep seperti riwayatnya, sifatnya, perilakunya dan sebagainya.',
+  'OOC ini adalah kebalikan dari IC,OOC adalah segala sesuatu yang berhubungan dengan dirimu sendiri atau real life kamu didunia nyata.',
+  'Mixing adalah pencampuran dari IC dan OOC. Contohnya seperti anda melihat streaming orang dan anda ingin bertemu dengan beliau di dalam kota dan langsung menyebutkan nama beliau, padahal anda dikota tidak kenal sama sekali dengan beliau, termasuk melihat discord bertanda !OOC! .',
+  'MetaGaming merupakan pemanfaatan fitur yang tidak seharusnya, seperti mengecek nama seseorang menggunakan Fitur data penduduk dan fitur lainnya, contoh : mengecek jumlah polisi, ems dll dari data penduduk.',
+  'PowerGaming adalah sebuah tindakan dalam memainkan roleplay yang tidak nyata. Contoh : Anda ditabrak oleh kendaraan player lain namun anda tidak merasa kesakitan.',
+  'DeathMatch adalah Membunuh / menembak pemain lain tanpa alasan secara IC yang jelas.',
+  'Kill on Sight adalah Membunuh / menembak tanpa melakukan RP terlebih dahulu sebelumnya.',
+  'Revenge Kill adalah Kalian balas dendam dengan membunuh / menembak pemain yang membunuh kalian sebelumnya.',
+  'Refusing RP adalah Kalian secara sepihak menolak RP namun dengan cara seperti pause game, keluar dari game.',
+  'Player Kill adalah kejadian terbunuhnya character yang kita perankan.',
+  'Character Kill adalah kejadian terbunuhnya character game anda secara permanent.',
+  'NON-RP Fear adalah ketika kamu sedang di todong dengan pistol lalu anda tidak takut sama sekali.',
+  'FailRP Merupakan sebuah pelanggaran yang dimana kalian melakukan tindakan tidak sesuai dengan RP yang kamu perankan. Seperti yang tidak bisa dilakukan di dunia nyata kamu lakukan di IN GAME, contoh : MEMBUNUH ORANG SECARA BRUTAL atau MENABRAKNYA SECARA SENGAJA.',
 ]
 
+
 var rdmvdm = [
-  'Players can not kill or attack other players without role-play.',
-  'Players must have a reason or a benefit to their character when trying to kill or attack another player.',
-  '- Example:  Yelling "hands up or die" without a reason is not valid role-play.',
-  'Players may use vehicles as weapons as long as its within role-play and logical.',
-  'Players can not intentionally use aerial vehicles to collide into other players or vehicles.',
+  'Zona Hijau Merupakan Daerah Yang Memiliki Keamanan yang Tinggi Seperti Rumah Sakit, Kantor polisi, Bandara, LSC Dan Seluruh Garasi Kota.', 
+  'Didalam zona hijau kalian TIDAK boleh melakukan tindakan KRIMINAL apapun Gagal dalam menjalani aturan ini akan berakibat pada Penjara OOC (60 Menit)  Tanpa ada Peringatan.',
 ]
 
 var metagaming = [
-  'Players can not use information gathered outside of role-play to influence their actions within the game.',
-  'Players may remove another players communication devices in an role-play manner.',
-  'Players with removed communication devices are expected to mute their third-party communication software.',
-  'Players may only remove another players communication device when it is logical within role-play.',
-  'Players can not use information gathered from outside the server (such as forums) while in-game.',
-  'Knowledge and experiences should be learned and discovered by a players current character in-game.',
-  'Players can not force another player into a situation that they cannot role-play out of. This is known as "Power-Gaming".',
-  'Players must use common sense when encountering power-gaming potential situations.',
+ 'Zona Putih Merupakan Daerah Yang Memiliki Keamanan Yang Rendah dimana biasanya ditempat itu tidak ada warga sekitar (npc).',
+  'Seperti Barbershop, Gas Station, Gang sempit Dll. Diwajibkan Menodong Terdahulu, Jika Tertodong Lari Maka Boleh Ditembak.',
+  'Jika Tertodong Sudah Memegang Senjata Dari Awal Maka Di Perbolehkan Menembak Balik Penodong (Jika Tertodong Sudah Menyerah Maka Tidak Boleh Dibunuh).',
 ]
 
 var newlife = [
-  'Players that are downed but then stabilized should continue role-play accordingly.',
-  'Players that are killed ("respawn" is prompted) must "forget" their previous situation in which they have died.',
-  'Players that are killed may still proceed with their current character. (players may DOA their character and start a new character story).',
+ 'Zona merah merupakan zona terlarang memperbolehkan siapapun untuk melakukan tindak kejahatan yang harus beralasan secara RP..',
+  'Tindakan apapun, harus dimulai dengan penodongan.',
+  'Minimal 1 EMS & 3 Polisi (untuk prosesing) | untuk mencabut canabis diperbolehkan tanpa ada EMS & Polisi.',
+  'Minimal 2 Polisi 1 EMS untuk menjual Marijuana .',
+  'Senjata yang diperbolehkan hanya pistol saja.',
+  'Tindakan apapun, harus dimulai dengan penodongan. Lakukan percakapan terlebih dahulu agar memiliki alasan untuk tindakan RP selanjutnya.',
+  'Pembunuhan (PK/CK) dapat dilakukan ketika alasan RP sesuai.',
+  'Apabila seseorang sudah memegang senjata di ZONA ini maka dinyatakan perang.',
+  'Perang wajib dimulai didalam blip ZONA MERAH sesuai di MAP terlebih dahulu. setelah itu lanjut pengejaran/perang di luar ZONA diperbolehkan.',
+  'DC/Exit dianggap keluar dari situasi perang dan harus melarikan diri apabila sudah masuk lagi.',
+  'Apabila pelaku sudah terlihat melarikan diri dari zona merah dan sudah terlihat oleh kepolisian maka Polisi dapat langsung melakukan pengejaran terhadap pelaku.',
+  'Dilarang membunuh dengan cara menabrak menggunakan kendaraan.',
+  'Maximal barang diambil ada di [Pembegalan]',
+  'Pengecualian untuk POLISI tidak diperbolehkan mengambil barang-barang POLISI.',
 ]
 
 var abuse = [
-  'Players can not abuse or exploit bugs.',
-  'Players can not hack or script. (using third-party software, injectors, etc).',
-  'Players who report an exploit using the proper procedures will be rewarded ingame.',
+   'Minimal 2 Polisi dan 1 EMS.',
+  'Hanya diperbolehkan menggunakan Pistol.',
+  'Hanya Boleh Dilakukan Di Zona Putih Dan Merah.',
+  'Uang yang diambil hanya yang boleh didompet dilarang menyuruh korban ambil ke bank.',
+  'Maksimal uang yang diambil sebanyak 50.000.',
+  'Maximal barang legal yang diambil sebanyak Total 30%.',
+  ' Maximal bandage yang diambil sebanyak 5.',
+  'Maximal repair kit / body kit maximal 1.',
+  'Diperbolehkan mengambil semua barang illegal korban.',
+  'Korban tidak boleh melawan apabila sudah ditodong penjahat.',
+  'Apabila korban sudah ditodong tapi kabur / melawan penjahat boleh membunuh korban.',
+  'Apabila korban membawa senjata illegal penodong boleh mengambil..',
+  'Dilarang melakukan pembegalan diarea lokasi tempat para pekerja.',
 ]
 
 // Modify hotkeys below.
 var generalhotkeys = [
-  'Press <kbd>SHIFT</kbd> + <kbd>H</kbd> to switch voice distance.',
-  'Hold <kbd>H</kbd> to view your current voice distance.',
-  'Press <kbd>M</kbd> to view player list.',
-  'Press <kbd>L</kbd> to open your personal inventory.',
-  'Press <kbd>Y</kbd> to open your vehicles inventory.',
+  'Tekan <kbd>F11</kbd> untuk mengatur HUD.',
+  'Tekan <kbd>SHIFT</kbd> + <kbd>H</kbd> untuk mengatur jarak berbicara.',
+  'Tahan <kbd>F</kbd> untuk naik kendaraan.',
+  'Tahan <kbd>N</kbd> untuk berbicara.',
+  'Tahan <kbd>4</kbd> untuk membuka RadialMenu.',
+  'Tekan <kbd>Z</kbd> untuk melihat scoreboard.',
+  'Tekan <kbd>Y</kbd> untuk membuka bagasi kendaraan.',
 ]
 
 var rphotkeys = [
-  'Use <code>/twt {message}</code> in chat to use twitter.',
-  'Press <kbd>X</kbd> to put your hands up.',
-  'Press <kbd>F1</kbd> to bring up your phone.',
-  'Press <kbd>PAGEDOWN</kbd> to view your wallet.',
-  'Press <kbd>F3</kbd> to bring up the animation menu.',
-  'Press <kbd>LEFT CTRL</kbd> to crouch.',
-  'Press <kbd>SHIFT</kbd> + <kbd>E</kbd> to sit.',
-  'Press <kbd>B</kbd> to point.',
+  'Ketik <code>/ooc {pesan}</code> untuk chat ooc..',
+  'Ketik <code>/911 {pesan}</code> untuk meminta tolong EMS.',
+  'Tekan <kbd>LEFT CTRL</kbd> untuk jongkok.',
+  'Tekan <kbd>SHIFT</kbd> + <kbd>E</kbd> untuk duduk.',
+  'Tahan <kbd>H</kbd> untuk menyilangkan tangan.',
+  'Tahan <kbd>delete</kbd> untuk mengangkat jempol.',
+  'Tekan <kbd>B</kbd> untuk menunjuk.',
+  'Tekan <kbd>F1</kbd> untuk membuka handphone.',
+  'Tekan <kbd>F2</kbd> untuk membuka inventory.',
+  'Tekan <kbd>F3</kbd> untuk membuka animations.',
+  'Tekan <kbd>F5</kbd> untuk membuka data diri.',
+  'Tekan <kbd>F7</kbd> untuk membuka invoices.',
 ]
 
 var vehiclehotkeys = [
-  'Press <kbd>U</kbd> to lock/unlock your vehicle.',
-  'Press <kbd>B</kbd> to put your seatbelt on.',
-  'Press <kbd>DEL</kbd> to turn your engine on/off.',
-  'Press <kbd>PAGEUP</kbd> to bring up vehicle options.',
-  'Press <kbd>Q</kbd> to turn on emergency lights. (EMS & Police)',
-  'Press <kbd>LEFT ALT</kbd> to turn on sirens. (EMS & Police)',
-  'Press <kbd>R</kbd> to change siren. (EMS & Police)',
+  'Tekan <kbd>4</kbd> -> <code>Lock Car</code> untuk mengatur kunci kendaraan.',
+  'Tekan <kbd>B</kbd> untuk memakai sabuk pengaman.',
+  'Tekan <kbd>4</kbd> -> <code>Engine</code>untuk mengatur mesin kendaraan.',
+  'Tekan <kbd>F9</kbd> untuk membuka menu kendaraan.',
+  'Tekan <kbd>Q</kbd> untuk menghidupkan sirine. (EMS & Police)',
+  'Tekan <kbd>LEFT ALT</kbd> untuk menghidupkan suara sirine. (EMS & Police)',
+  'Tekan <kbd>R</kbd> untuk mengganti suara sirine. (EMS & Police)',
 ]
 
 var jobshotkeys = [
-  'Press <kbd>F6</kbd> to bring up your job menu.',
-  'Press <kbd>NUMPAD 5</kbd> to bring up vehicle radar. (Police)',
+   'Ketik <code>/hud</code> untuk toogle HUD..',
 ]
